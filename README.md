@@ -1,41 +1,19 @@
 # Amazon Sales SQL Analysis
 SQL analysis of Amazon sales data with queries and insights.
 
-📌 Project Overview
+## 📌 Project Overview
 
-This project analyzes Amazon sales data using SQL to uncover sales trends, performance metrics, and insights. It uses a real-world e-commerce dataset to practice SQL basics, including data cleaning, filtering, aggregation, and summarization.
+This project analyzes Amazon sales data using pure SQL to uncover sales trends and performance metrics. It uses a real-world e-commerce dataset to practice query writing, aggregation, and data summarization.
 
-🎯 Objectives
+## 🎯 Objectives
 
-Practice writing SQL queries (SELECT, FROM, WHERE)
+Practice writing SQL queries (SELECT, FROM, WHERE, GROUP BY)
 
-Clean and filter data using logical operators
+Summarize data using aggregate functions
 
-Aggregate and summarize data using SQL functions
+Extract business insights from raw sales data
 
-Explore and analyze a real-world dataset
-
-📂 Dataset
-
-The dataset (Amazon Sale Report.csv) contains the following columns:
-
-Date – date of sale
-
-SKU – stock keeping unit
-
-Category – product category
-
-Qty – quantity sold
-
-Amount – sales amount
-
-B2B – whether the sale was B2B
-
-Fulfilment – fulfillment method
-
-Size – product size
-
-❓ Practice Questions
+## ❓ Questions Answered
 
 Total number of sales records
 
@@ -57,48 +35,33 @@ Most frequently used fulfillment method
 
 Sales count per product size
 
-🗃️ Project Structure
+## 📊 Query Results
 
-amazon-sales-sql-analysis/
-├── data/
-│   └── Amazon Sale Report.csv
-├── queries/
-│   └── SQL_Amazon.sql
-├── analysis.ipynb       # Jupyter notebook with analysis
-├── README.md            # Project documentation
-└── requirements.txt     # Python dependencies (optional)
+The results of all queries are saved in a separate markdown file for easy viewing:👉 View Results
 
-🖥️ How to Run the Project
+Alternatively, screenshots of MySQL query outputs can be found in the images/ folder (if included).
+
+## 🗂️ How to Use This Project
 
 Clone the repository:
 
 git clone https://github.com/your-username/amazon-sales-sql-analysis.git
-cd amazon-sales-sql-analysis
 
-Open analysis.ipynb in Jupyter or VS Code.
+Open SQL_Amazon.sql in any SQL client (MySQL Workbench, DBeaver, etc.).
 
-Run all cells to execute SQL queries on the dataset.
+Load your dataset into a table named sales.
 
-📊 Displaying Query Results
+Execute the queries to reproduce results.
 
-Each SQL query result is displayed as a data table within the Jupyter notebook.
+## 🚀 Key Insights
 
-Results can be exported as images (screenshots) or saved as CSV and embedded in the repo:
+Highest revenue month and top-selling SKUs identified.
 
-Save results: result.to_csv('output/query1.csv', index=False)
+Clear breakdown of B2B vs non-B2B transactions.
 
-Commit these CSVs under an output/ folder.
+Fulfillment method trends analyzed.
 
-Alternatively, capture screenshots of MySQL Workbench/CLI results and include them under an images/ folder, embedding them in this README:
-
-![Query1 Result](images/query1_result.png)
-
-🚀 Live Execution
-
-You can run this notebook directly in Google Colab:
-
-
-📜 License
+## 📜 License
 
 This project is licensed under the MIT License – you are free to use, modify, and distribute it with attribution.
 
