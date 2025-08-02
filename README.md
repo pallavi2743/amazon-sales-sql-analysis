@@ -15,25 +15,25 @@ Extract business insights from raw sales data
 
 ## ❓ Questions Answered
 
-Total number of sales records
+1. Total number of sales records
 
-Total revenue across all sales
+2. Total revenue across all sales
 
-Product category with the highest quantity sold
+3. Product category with the highest quantity sold
 
-Average sales amount per transaction
+4. Average sales amount per transaction
 
-Number of unique SKUs sold
+5. Number of unique SKUs sold
 
-Top 5 SKUs by quantity sold
+6. Top 5 SKUs by quantity sold
 
-Month with the highest total sales revenue
+7. Month with the highest total sales revenue
 
-B2B vs non-B2B transaction count
+8. B2B vs non-B2B transaction count
 
-Most frequently used fulfillment method
+9. Most frequently used fulfillment method
 
-Sales count per product size
+10. Sales count per product size
 
 ## 📊 Query Results
 
